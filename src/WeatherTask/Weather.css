@@ -1,0 +1,191 @@
+.Weather_content_container{
+height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+/* background-image: url("../Image-icon/nvuiGe.jpg"); */
+background-position: center center;
+background-size: cover;
+/* margin-right: 500px; */
+
+
+}
+.rightsidebar{
+height: 100%;
+width: 30%;
+/* background-color: yellow; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.leftsidbar{
+height: 100%;
+width: 70%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+}
+.flag_container{
+height: 300px;
+width: 500px;
+}
+.informatinWeather_content_container{
+height:720px;
+width: 420px;
+/* position: absolute; */
+/* background-color:rgba(238, 238, 238, 0.152); */
+display: flex;
+flex-direction: column;
+backdrop-filter: blur(10px);
+margin-right: 20px;
+
+}
+.place_inpute_button{
+height:70px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding-top: 10px;
+}
+.iconLocation_weather{
+height: 55px;
+width: 55px;
+cursor: pointer;
+/* filter: invert(100%);
+-webkit-filter: invert(100%); */
+filter: opacity(50%);
+}
+.iconLocation_weather:hover{
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+    /* filter: invert(100%);
+    -webkit-filter: invert(100%); */
+    box-shadow:  0px 1px 3px rgba(89, 86, 86, 0.51);
+    border-radius: 100%;
+    }
+    .fildCountery_Weather{
+    height: 43px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    }
+    .tempDateIcon_Weather_Container{
+        height: 350px;
+        width: 600px;
+      
+        display: flex;
+        flex-direction: column;
+        /* background-color: blue; */
+       /* margin-top:350px; */
+    }
+    .icontemp_container{
+    height: 50%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+.date_container{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.loader {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    border-radius: 10px;
+  }
+  
+  .loader div {
+    width: 8%;
+    height: 24%;
+    background: rgb(128, 128, 128);
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    opacity: 0;
+    border-radius: 50px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    animation: fade458 1s linear infinite;
+  }
+  
+  @keyframes fade458 {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0.25;
+    }
+  }
+  
+  .loader .bar1 {
+    transform: rotate(0deg) translate(0, -130%);
+    animation-delay: 0s;
+  }
+  
+  .loader .bar2 {
+    transform: rotate(30deg) translate(0, -130%);
+    animation-delay: -1.1s;
+  }
+  
+  .loader .bar3 {
+    transform: rotate(60deg) translate(0, -130%);
+    animation-delay: -1s;
+  }
+  
+  .loader .bar4 {
+    transform: rotate(90deg) translate(0, -130%);
+    animation-delay: -0.9s;
+  }
+  
+  .loader .bar5 {
+    transform: rotate(120deg) translate(0, -130%);
+    animation-delay: -0.8s;
+  }
+  
+  .loader .bar6 {
+    transform: rotate(150deg) translate(0, -130%);
+    animation-delay: -0.7s;
+  }
+  
+  .loader .bar7 {
+    transform: rotate(180deg) translate(0, -130%);
+    animation-delay: -0.6s;
+  }
+  
+  .loader .bar8 {
+    transform: rotate(210deg) translate(0, -130%);
+    animation-delay: -0.5s;
+  }
+  
+  .loader .bar9 {
+    transform: rotate(240deg) translate(0, -130%);
+    animation-delay: -0.4s;
+  }
+  
+  .loader .bar10 {
+    transform: rotate(270deg) translate(0, -130%);
+    animation-delay: -0.3s;
+  }
+  
+  .loader .bar11 {
+    transform: rotate(300deg) translate(0, -130%);
+    animation-delay: -0.2s;
+  }
+  
+  .loader .bar12 {
+    transform: rotate(330deg) translate(0, -130%);
+    animation-delay: -0.1s;
+  }
+  
