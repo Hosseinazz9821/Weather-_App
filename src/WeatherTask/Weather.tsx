@@ -23,7 +23,7 @@ export default function Weather() {
        setLoading(true)
         let data = await fetch(
           // `http://api.weatherapi.com/v1/current.json?key=190b6f2462dd458387e211312230208&q=${State}
-          `http://api.weatherapi.com/v1/current.json?key=e04c2c30d6064988b4b55757230808&q=&q=${State}`
+          `http://api.weatherapi.com/v1/current.json?key=e04c2c30d6064988b4b55757230808&q=${State}&aqi=no`
         )
           .then((res) => res.json())
           .then((data) => setPp(data))
